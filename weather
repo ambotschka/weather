@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>weather</title>
-
     <style>
-        body{
-            background-color: aliceblue;
+        body {
+            background-color:  #0000ffff; <!-- set this value to match your background color (#2f3437 is the default "dark" theme color) -->
         }
     </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion Widget Embed Template</title>
 </head>
 <body>
-    <a class="weatherwidget-io" href="https://forecast7.com/en/41d82n72d25/06269/?unit=us" data-label_1="STORRS" data-label_2="WEATHER" data-font="Noto Serif" >STORRS WEATHER</a>
+  <a class="weatherwidget-io" href="https://forecast7.com/en/41d82n72d25/06269/?unit=us" data-label_1="STORRS" data-label_2="WEATHER" data-font="Noto Serif" >STORRS WEATHER</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+</script>  
 </body>
 </html>
